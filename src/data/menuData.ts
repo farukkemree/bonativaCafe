@@ -46,7 +46,7 @@ import whiteMocha from "@/assets/whitemocha.jpg";
 import affogato from "@/assets/Affogato.jpg";
 import sicakCikolata from "@/assets/sıcakçikolata.jpg";
 
-import sogukSandvic from "@/assets/sogukSandvic.jpg";
+import soguksandvic from "@/assets/soguksandvic.jpg";
 import tost from "@/assets/tost.jpg";
 export interface MenuItem {
   name: string;
@@ -258,7 +258,7 @@ export const snacks: MenuItem[] = [
     name: "Bonativa Soğuk Sandviç",
     description: "Taze malzemeler, özel soslar ve kaliteli peynirlerle hazırlanan özel sandviçimiz",
     price: 95,
-    image: sogukSandvic
+    image: soguksandvic
   },
   {
     name: "Tost",
