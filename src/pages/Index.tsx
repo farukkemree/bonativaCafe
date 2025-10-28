@@ -81,11 +81,16 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mb-4">
                 <MapPin className="w-8 h-8 text-primary-foreground" />
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-foreground">Adres</h3>
-              <p className="text-muted-foreground">
+                <h3 className="font-semibold text-lg mb-2 text-foreground">Adres</h3>
+              <a
+                href="https://maps.google.com/?q=Erikli+İnançlı+Sk.+No:7+Bursa+Türkiye"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-secondary transition-colors"
+              >
                 Erikli, İnançlı Sk. No:7 <br />
                 Bursa, Türkiye
-              </p>
+              </a>
             </div>
 
             <div className="flex flex-col items-center">
@@ -99,7 +104,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-secondary transition-colors"
               >
-                @bonativa
+                @bonativa_
               </a>
             </div>
 
@@ -109,7 +114,7 @@ const Index = () => {
               </div>
               <h3 className="font-semibold text-lg mb-2 text-foreground">Telefon</h3>
               <a
-                href="tel:+905551234567"
+                href="tel:+905433351313"
                 className="text-muted-foreground hover:text-secondary transition-colors"
               >
                 +90 543 335 13 13
