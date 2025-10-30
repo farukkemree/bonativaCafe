@@ -261,20 +261,20 @@ export const snacks: MenuItem[] = [
     image: tost
   },
   {
-    name: "Hindi Salamlı Krem Peynirli Soğuk Sandviç",
-    description: "İnce dilim hindi salam, krem peynir ve taze domates dilimleriyle klasik bir lezzet",
+    name: "Hindi Salamlı Soğuk Sandviç",
+    description: "Hindi salam, krem peynir ve taze domatesle hazırlanan klasik lezzet",
     price: 100,
     image: soguksandvic
   },
     {
-    name: "Hindi Fümeli Labneli Soğuk Sandviç",
-    description: "Hafifçe dumanlanmış hindi füme, labne ve taze domatesin ferah dokunuşuyla doyurucu bir seçenek",
+    name: "Hindi Fümeli Soğuk Sandviç",
+    description: "Dumanlı hindi füme, labne peyniri ve taze domatesle ferah bir seçenek",
     price: 120,
     image: soguksandvic
   },
   {
-    name: "Dana Jambonlu Kaşarlı Soğuk Sandviç",
-    description: "Kaliteli dana jambon, taze kaşar peyniri ve domates dilimlerinin oluşturduğu sevilen bir ikili",
+    name: "Dana Jambonlu Soğuk Sandviç",
+    description: "Dana jambon, taze kaşar peyniri ve domates dilimleriyle sevilen bir ikili",
     price: 140,
     image: soguksandvic
   }
