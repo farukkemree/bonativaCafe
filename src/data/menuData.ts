@@ -320,7 +320,7 @@ export const desserts: MenuItem[] = [
   {
     name: "Karamelli Trileçe",
     description: "Üç sütlü trileçe kek, karamel sos ile",
-    price: 100,
+    price: 120,
     image: trilece
   },
   {
