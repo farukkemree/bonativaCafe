@@ -284,37 +284,37 @@ export const desserts: MenuItem[] = [
   {
     name: "Red Velvet",
     description: "Yumuşak kırmızı kadife kek, kremalı peynir frosting ile",
-    price: 100,
+    price: 120,
     image: redvelvet
   },
   {
     name: "Dark Velvet",
     description: "Yoğun çikolatalı dark velvet kek, özel kremalı sos ile",
-    price: 100,
+    price: 120,
     image: darkvelvet
   },
   {
     name: "Çilekli Magnolia",
     description: "Taze çilekler ve hafif kremalı sos ile hazırlanan özel magnolia tatlımız",
-    price: 100,
+    price: 120,
     image: cileklimag
   },
   {
     name: "Muzlu Magnolia",
     description: "Taze muz dilimleri ve kremalı sos ile hazırlanan magnolia",
-    price: 100,
+    price: 120,
     image: muzlumag
   },
   {
     name: "Kivili Magnolia",
     description: "Taze kivi ve hafif kremalı sos ile özel magnolia tatlısı",
-    price: 100,
+    price: 120,
     image: kivilimag
   },
   {
     name: "Sütlaç",
     description: "Geleneksel usulde fırınlanmış, üstü karamelize sütlaç",
-    price: 100,
+    price: 120,
     image: sutlac
   },
   {
@@ -326,25 +326,25 @@ export const desserts: MenuItem[] = [
   {
     name: "Frambuazlı Trileçe",
     description: "Hafif sünger keki ve yoğun frambuaz sosuyla taptaze bir trileçe",
-    price: 100,
+    price: 120,
     image: frambuazlıtrilece
   },
   {
     name: "San Sebastian",
     description: "Bask usulü kremalı cheesecake, yanık üst katmanı ile ünlü İspanyol tatlısı",
-    price: 140,
+    price: 160,
     image: sansebastian
   },
   {
     name: "Beyaz Çikolatalı Waffle",
     description: "Taze yapılan waffle muz,kivi,çilek ve beyaz çikolata sosu ile servis edilir",
-    price: 200,
+    price: 220,
     image: beyazcwaffle
   },
   {
     name: "Çikolatalı Waffle",
     description: "Taze yapılan waffle muz,kivi,çilek ve çikolata sosu ile servis edilir",
-    price: 200,
+    price: 220,
     image: waffle
   }
 ];
