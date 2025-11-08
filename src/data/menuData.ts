@@ -308,13 +308,13 @@ export const desserts: MenuItem[] = [
     image: darkvelvet
   },
   {
-    name: "Çikolatalı Trileçe",
+    name: "Karamelli Trileçe",
     description: "Üç sütlü trileçe kek, karamel sos ile",
     price: 120,
     image: trilece
   },
   {
-    name: "Karamelli Trileçe",
+    name: "Çikolatalı Trileçe",
     description: "Üç sütlü trileçe kek, çikolata sos ile",
     price: 120,
     image: cikolatalitrilece
