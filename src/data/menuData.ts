@@ -9,6 +9,7 @@ import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
 import sutlac from "@/assets/sütlaç.jpg";
 import trilece from "@/assets/trileçe.jpg";
 import frambuazlıtrilece from "@/assets/frambuazlıtrilece.jpg";
+import cikolatalitrilece from "@/assets/cikolatalitrilece.jpg";
 
 // Cold drinks / beverages
 // Cold drinks / beverages
@@ -16,8 +17,11 @@ import orangeMango from "@/assets/orangemango.jpg";
 import hibiscus from "@/assets/hibiscus.jpg";
 import coolLime from "@/assets/coollime.jpg";
 import limonata from "@/assets/limonata.jpg";
-import fanta from "@/assets/fanta.jpg";
 import kola from "@/assets/kola.jpg";
+import fanta from "@/assets/fanta.jpg";
+import karisikmeyvesuyu from "@/assets/karisikmeyvesuyu.webp";
+import seftalimeyvesuyu from "@/assets/seftalimeyvesuyu.webp";
+import visnemeyvesuyu from "@/assets/visnemeyvesuyu.webp";
 import sadeSoda from "@/assets/soda.jpg";
 import karpuzCilekSoda from "@/assets/karpuzçilek.webp";
 import elmaliSoda from "@/assets/elma.webp";
@@ -35,7 +39,6 @@ import turkKahvesi from "@/assets/türkkahvesi.jpg";
 import dibek from "@/assets/dibek.jpg";
 import filtre from "@/assets/filtre.jpg";
 import espresso from "@/assets/espresso.jpg";
-import cappuccino from "@/assets/cappuccino.jpg";
 import americano from "@/assets/americano.jpg";
 import flatWhite from "@/assets/flatwhite.jpg";
 import latte from "@/assets/latteiçecek.jpg";
@@ -117,16 +120,40 @@ export const coldDrinks: MenuItem[] = [
     image: limonluIceTea
   },
   {
-    name: "Fanta",
-    description: "Portakal aromalı gazlı içecek",
-    price: 60,
-    image: fanta
-  },
-  {
     name: "Kola",
     description: "Klasik gazlı içecek",
     price: 60,
     image: kola
+  },
+  {
+    name: "Fanta",
+    description: "Portakal aromalı gazlı içecek",
+    price: 60,
+    image: fanta  
+  },
+  {
+  name: "Karışık Meyve Suyu",
+  description: "Çeşitli taze meyvelerin doğal karışımı ile hazırlanan, vitamin dolu ve ferahlatıcı içecek.",
+  price: 60,
+  image: karisikmeyvesuyu
+  },
+  {
+  name: "Şeftali Meyve Suyu",
+  description: "Taze ve olgun şeftalilerden hazırlanan, tatlı ve lezzetli, doğal meyve suyu.",
+  price: 60,
+  image: seftalimeyvesuyu
+  },
+  {
+  name: "Vişne Meyve Suyu",
+  description: "Taze vişnelerin mayhoş lezzetini sunan, serinletici ve doğal meyve suyu.",
+  price: 60,
+  image: visnemeyvesuyu
+  },
+  {
+    name: "Limonata",
+    description: "El yapımı, taze sıkılmış limon ve doğal şekerle hazırlanan klasik serinletici içecek",
+    price: 90,
+    image: limonata
   },
   {
     name: "Orange Mango",
@@ -145,12 +172,6 @@ export const coldDrinks: MenuItem[] = [
     description: "Taze lime, nane ve hafif tatlandırıcı ile hazırlanan serinletici ve canlandırıcı içecek",
     price: 90,
     image: coolLime
-  },
-  {
-    name: "Limonata",
-    description: "El yapımı, taze sıkılmış limon ve doğal şekerle hazırlanan klasik serinletici içecek",
-    price: 90,
-    image: limonata
   }
 ];
 
@@ -180,52 +201,28 @@ export const hotDrinks: MenuItem[] = [
     image: espresso
   },
   {
-    name: "Filtre Kahve",
-    description: "Premium Arabica çekirdeklerden taze demlenen filtre kahve",
-    price: 90,
-    image: filtre
-  },
-  {
     name: "Double Espresso",
     description: "Çift shot espresso, güçlü ve yoğun",
-    price: 90,
+    price: 70,
     image: espresso
   },
   {
-    name: "Cappuccino",
-    description: "Espresso, sıcak süt ve kremalı süt köpüğü ile hazırlanan İtalyan klasiği",
-    price: 90,
-    image: cappuccino
+    name: "Filtre Kahve",
+    description: "Premium Arabica çekirdeklerden taze demlenen filtre kahve",
+    price: 70,
+    image: filtre
   },
   {
     name: "Americano",
     description: "Espresso ve sıcak su ile hazırlanan yumuşak kahve",
-    price: 90,
+    price: 70,
     image: americano
-  },
-  {
-    name: "Flat White",
-    description: "Espresso ve kadifemsi mikro köpüklü süt ile hazırlanan özel kahve",
-    price: 90,
-    image: flatWhite
   },
   {
     name: "Latte",
     description: "Espresso ve bol sütlü, kremalı latte",
     price: 90,
     image: latte
-  },
-  {
-    name: "Macchiato",
-    description: "Espresso üzerine süt köpüğü ile 'işaretlenmiş' klasik İtalyan kahvesi",
-    price: 90,
-    image: macchiato
-  },
-  {
-    name: "Caramel Macchiato",
-    description: "Karamel şurubu, espresso ve süt köpüğü ile hazırlanan tatlı kahve",
-    price: 90,
-    image: caramelMacchiato
   },
   {
     name: "Mocha",
@@ -238,6 +235,23 @@ export const hotDrinks: MenuItem[] = [
     description: "Espresso, beyaz çikolata ve süt ile hazırlanan özel mocha",
     price: 90,
     image: whiteMocha
+  },{
+    name: "Macchiato",
+    description: "Espresso üzerine süt köpüğü ile 'işaretlenmiş' klasik İtalyan kahvesi",
+    price: 90,
+    image: macchiato
+  },
+  {
+    name: "Caramel Macchiato",
+    description: "Karamel şurubu, espresso ve süt köpüğü ile hazırlanan tatlı kahve",
+    price: 90,
+    image: caramelMacchiato
+  },
+  {
+    name: "Flat White",
+    description: "Espresso ve kadifemsi mikro köpüklü süt ile hazırlanan özel kahve",
+    price: 90,
+    image: flatWhite
   },
   {
     name: "Salep",
@@ -269,13 +283,13 @@ export const snacks: MenuItem[] = [
     {
     name: "Hindi Fümeli Soğuk Sandviç",
     description: "Dumanlı hindi füme, labne peyniri ve taze domatesle ferah bir seçenek",
-    price: 120,
+    price: 110,
     image: soguksandvic
   },
   {
-    name: "Dana Jambonlu Soğuk Sandviç",
-    description: "Dana jambon, taze kaşar peyniri ve domates dilimleriyle sevilen bir ikili",
-    price: 140,
+    name: "Dana Salamlı Soğuk Sandviç",
+    description: "Dana salam, taze kaşar peyniri ve domates dilimleriyle sevilen bir ikili",
+    price: 120,
     image: soguksandvic
   }
 ];
@@ -292,6 +306,24 @@ export const desserts: MenuItem[] = [
     description: "Yoğun çikolatalı dark velvet kek, özel kremalı sos ile",
     price: 120,
     image: darkvelvet
+  },
+  {
+    name: "Çikolatalı Trileçe",
+    description: "Üç sütlü trileçe kek, karamel sos ile",
+    price: 120,
+    image: trilece
+  },
+  {
+    name: "Karamelli Trileçe",
+    description: "Üç sütlü trileçe kek, çikolata sos ile",
+    price: 120,
+    image: cikolatalitrilece
+  },
+  {
+    name: "Frambuazlı Trileçe",
+    description: "Hafif sünger keki ve yoğun frambuaz sosuyla taptaze bir trileçe",
+    price: 120,
+    image: frambuazlıtrilece
   },
   {
     name: "Çilekli Magnolia",
@@ -318,24 +350,6 @@ export const desserts: MenuItem[] = [
     image: sutlac
   },
   {
-    name: "Karamelli Trileçe",
-    description: "Üç sütlü trileçe kek, karamel sos ile",
-    price: 120,
-    image: trilece
-  },
-  {
-    name: "Frambuazlı Trileçe",
-    description: "Hafif sünger keki ve yoğun frambuaz sosuyla taptaze bir trileçe",
-    price: 120,
-    image: frambuazlıtrilece
-  },
-  {
-    name: "San Sebastian",
-    description: "Bask usulü kremalı cheesecake, yanık üst katmanı ile ünlü İspanyol tatlısı",
-    price: 160,
-    image: sansebastian
-  },
-  {
     name: "Beyaz Çikolatalı Waffle",
     description: "Taze yapılan waffle muz,kivi,çilek ve beyaz çikolata sosu ile servis edilir",
     price: 220,
@@ -346,5 +360,11 @@ export const desserts: MenuItem[] = [
     description: "Taze yapılan waffle muz,kivi,çilek ve çikolata sosu ile servis edilir",
     price: 220,
     image: waffle
+  },
+  {
+    name: "San Sebastian",
+    description: "Bask usulü kremalı cheesecake, yanık üst katmanı ile ünlü İspanyol tatlısı",
+    price: 160,
+    image: sansebastian
   }
 ];
