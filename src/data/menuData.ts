@@ -2,36 +2,37 @@ import sansebastian from "@/assets/sansebastian.jpg";
 import redvelvet from "@/assets/redvelvet.jpg";
 import waffle from "@/assets/waffle.jpg";
 import darkvelvet from "@/assets/darkvelvet.jpg";
-import cileklimag from "@/assets/çileklimag.jpg";
-import kivilimag from "@/assets/kivilimag.jpg";
-import muzlumag from "@/assets/muzlumag.jpg";
+import cileklimag from "@/assets/cileklimagnolia.jpg";
+import kivilimag from "@/assets/kivilimagnolia.jpg";
+import muzlumag from "@/assets/muzlumagnolia.jpg";
 import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
-import sutlac from "@/assets/sütlaç.jpg";
-import trilece from "@/assets/trileçe.jpg";
-import frambuazlıtrilece from "@/assets/frambuazlıtrilece.jpg";
+import firindasutlac from "@/assets/firindasutlac.jpg";
+import sutlac from "@/assets/sutlac.jpg";
+import trilece from "@/assets/trilece.jpg";
+import frambuazlıtrilece from "@/assets/frambuazlitrilece.jpg";
 import cikolatalitrilece from "@/assets/cikolatalitrilece.jpg";
 
-// Cold drinks / beverages
 // Cold drinks / beverages
 import orangeMango from "@/assets/orangemango.jpg";
 import hibiscus from "@/assets/hibiscus.jpg";
 import coolLime from "@/assets/coollime.jpg";
 import limonata from "@/assets/limonata.jpg";
 import kola from "@/assets/kola.jpg";
+import kolaturka from "@/assets/kolaturka.jpg";
 import fanta from "@/assets/fanta.jpg";
 import karisikmeyvesuyu from "@/assets/karisikmeyvesuyu.jpg";
 import seftalimeyvesuyu from "@/assets/seftalimeyvesuyu.jpg";
-import visnemeyvesuyu from "@/assets/visnemeyvesuyu.jpg";
-import sadeSoda from "@/assets/soda.jpg";
-import karpuzCilekSoda from "@/assets/karpuzçilek.webp";
-import elmaliSoda from "@/assets/elma.webp";
-import narliSoda from "@/assets/narlı.webp";
-import limonluSoda from "@/assets/limonlu.webp";
-import seftaliIceTea from "@/assets/şeftali.webp";
-import mangoIceTea from "@/assets/mango.jpg";
-import limonluIceTea from "@/assets/limonluicetea.webp";
+import visnemeyvesuyu from "@/assets/visnemevyesuyu.jpg";
+import sadeSoda from "@/assets/sadesoda.jpg";
+import karpuzCilekSoda from "@/assets/karpuzcileklisodajpg.jpg";
+import elmaliSoda from "@/assets/elmalısoda.jpg";
+import narliSoda from "@/assets/narlısoda.jpg";
+import limonluSoda from "@/assets/limonlusoda.jpg";
+import seftaliIceTea from "@/assets/seftali.jpg";
+// import mangoIceTea from "@/assets/mango.jpg";
+import limonluIceTea from "@/assets/limon.jpg";
 import ayran from "@/assets/ayran.png";
-import su from "@/assets/su.jpeg";
+import su from "@/assets/su.jpg";
 
 // Hot drinks / beverages
 import cay from "@/assets/çay.jpg";
@@ -107,12 +108,12 @@ export const coldDrinks: MenuItem[] = [
     price: 60,
     image: seftaliIceTea
   },
-  {
-    name: "Mango Ice Tea",
-    description: "Mango aromalı soğuk çay",
-    price: 60,
-    image: mangoIceTea
-  },
+  // {
+  //   name: "Mango Ice Tea",
+  //   description: "Mango aromalı soğuk çay",
+  //   price: 60,
+  //   image: mangoIceTea
+  // },
   {
     name: "Limonlu Ice Tea",
     description: "Limon aromalı soğuk çay",
@@ -124,6 +125,12 @@ export const coldDrinks: MenuItem[] = [
     description: "Klasik gazlı içecek",
     price: 60,
     image: kola
+  },
+  {
+    name: "Kola Turka",
+    description: "Klasik gazlı içecek",
+    price: 60,
+    image: kolaturka
   },
   {
     name: "Fanta",
@@ -342,6 +349,12 @@ export const desserts: MenuItem[] = [
     description: "Taze kivi ve hafif kremalı sos ile özel magnolia tatlısı",
     price: 120,
     image: kivilimag
+  },
+  {
+    name: "Fırında Sütlaç",
+    description: "Geleneksel usulde fırınlanmış, üstü karamelize sütlaç",
+    price: 120,
+    image: firindasutlac
   },
   {
     name: "Sütlaç",
