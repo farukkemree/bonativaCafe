@@ -5,6 +5,8 @@ import darkvelvet from "@/assets/darkvelvet.jpg";
 import cileklimag from "@/assets/cileklimagnolia.jpg";
 import kivilimag from "@/assets/kivilimagnolia.jpg";
 import muzlumag from "@/assets/muzlumagnolia.jpg";
+import lotuslumag from "@/assets/lotuslumagnolia.jpg";
+import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
 import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
 import firindasutlac from "@/assets/firindasutlac.jpg";
 import sutlac from "@/assets/sutlac.jpg";
@@ -304,7 +306,7 @@ export const snacks: MenuItem[] = [
 export const desserts: MenuItem[] = [
   {
     name: "Red Velvet",
-    description: "Yumuşak kırmızı kadife kek, kremalı peynir frosting ile",
+    description: "Yumuşak kırmızı kadife kek, özel kremalı sos ile",
     price: 120,
     image: redvelvet
   },
@@ -316,13 +318,13 @@ export const desserts: MenuItem[] = [
   },
   {
     name: "Karamelli Trileçe",
-    description: "Üç sütlü trileçe kek, karamel sos ile",
+    description: "Hafif sünger keki ve karamel sosuyla taptaze bir trileçe",
     price: 120,
     image: trilece
   },
   {
     name: "Çikolatalı Trileçe",
-    description: "Üç sütlü trileçe kek, çikolata sos ile",
+    description: "Hafif sünger keki ve yoğun çikolata sosuyla taptaze bir trileçe",
     price: 120,
     image: cikolatalitrilece
   },
@@ -334,43 +336,55 @@ export const desserts: MenuItem[] = [
   },
   {
     name: "Çilekli Magnolia",
-    description: "Taze çilekler ve hafif kremalı sos ile hazırlanan özel magnolia tatlımız",
+    description: "Taze çilekler ve hafif kremalı sos ile hazırlanan özel magnolia",
     price: 120,
     image: cileklimag
   },
   {
     name: "Muzlu Magnolia",
-    description: "Taze muz dilimleri ve kremalı sos ile hazırlanan magnolia",
+    description: "Taze muz dilimleri ve kremalı sos ile hazırlanan özel magnolia",
     price: 120,
     image: muzlumag
   },
   {
     name: "Kivili Magnolia",
-    description: "Taze kivi ve hafif kremalı sos ile özel magnolia tatlısı",
+    description: "Taze kivi dilimleri ve hafif kremalı sos ile hazırlanan özel magnolia",
     price: 120,
     image: kivilimag
   },
   {
+    name: "Lotuslu Magnolia",
+    description: "Orijinal Lotus bisküvileri ve karamelize sos ile hazırlanan özel magnolia",
+    price: 120,
+    image: lotuslumag
+  },
+  {
+    name: "Frambuazlı Magnolia",
+    description: "Taze frambuazlar ve hafif kremalı sos ile hazırlanan mayhoş ve tatlı magnolia",
+    price: 120,
+    image: frambuazlımag
+  },
+  {
     name: "Fırında Sütlaç",
-    description: "Geleneksel usulde fırınlanmış, üstü karamelize sütlaç",
+    description: "Özel güveç kaplarında fırınlanan ve üzeri nar gibi kızartılan geleneksel sütlaç",
     price: 120,
     image: firindasutlac
   },
   {
     name: "Sütlaç",
-    description: "Geleneksel usulde fırınlanmış, üstü karamelize sütlaç",
+    description: "Tam kıvamında tencerede pişirilen ve tarçın ile servis edilen klasik anne sütlacı",
     price: 120,
     image: sutlac
   },
   {
     name: "Beyaz Çikolatalı Waffle",
-    description: "Taze yapılan waffle muz,kivi,çilek ve beyaz çikolata sosu ile servis edilir",
+    description: "Taze muz, kivi, çilek ve beyaz çikolata sosu ile hazırlanan sıcak waffle",
     price: 220,
     image: beyazcwaffle
   },
   {
     name: "Çikolatalı Waffle",
-    description: "Taze yapılan waffle muz,kivi,çilek ve çikolata sosu ile servis edilir",
+    description: "Taze muz, kivi, çilek ve özel çikolata sosu ile hazırlanan sıcak waffle",
     price: 220,
     image: waffle
   },
