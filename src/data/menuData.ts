@@ -1,4 +1,4 @@
-import sansebastian from "@/assets/sansebastian.jpg";
+// import sansebastian from "@/assets/sansebastian.jpg";
 import redvelvet from "@/assets/redvelvet.jpg";
 import waffle from "@/assets/waffle.jpg";
 import darkvelvet from "@/assets/darkvelvet.jpg";
@@ -9,7 +9,7 @@ import lotuslumag from "@/assets/lotuslumagnolia.jpg";
 import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
 import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
 import firindasutlac from "@/assets/firindasutlac.jpg";
-import sutlac from "@/assets/sutlac.jpg";
+// import sutlac from "@/assets/sutlac.jpg";
 import trilece from "@/assets/trilece.jpg";
 import frambuazlıtrilece from "@/assets/frambuazlitrilece.jpg";
 import cikolatalitrilece from "@/assets/cikolatalitrilece.jpg";
@@ -371,12 +371,6 @@ export const desserts: MenuItem[] = [
     image: firindasutlac
   },
   {
-    name: "Sütlaç",
-    description: "Tam kıvamında tencerede pişirilen ve tarçın ile servis edilen klasik anne sütlacı",
-    price: 120,
-    image: sutlac
-  },
-  {
     name: "Beyaz Çikolatalı Waffle",
     description: "Taze muz, kivi, çilek ve beyaz çikolata sosu ile hazırlanan sıcak waffle",
     price: 220,
@@ -387,11 +381,11 @@ export const desserts: MenuItem[] = [
     description: "Taze muz, kivi, çilek ve özel çikolata sosu ile hazırlanan sıcak waffle",
     price: 220,
     image: waffle
-  },
-  {
-    name: "San Sebastian",
-    description: "Bask usulü kremalı cheesecake, yanık üst katmanı ile ünlü İspanyol tatlısı",
-    price: 160,
-    image: sansebastian
   }
+  // {
+  //   name: "San Sebastian",
+  //   description: "Bask usulü kremalı cheesecake, yanık üst katmanı ile ünlü İspanyol tatlısı",
+  //   price: 160,
+  //   image: sansebastian
+  // }
 ];
