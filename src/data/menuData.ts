@@ -13,6 +13,7 @@ import firindasutlac from "@/assets/firindasutlac.jpg";
 import trilece from "@/assets/trilece.jpg";
 import frambuazlıtrilece from "@/assets/frambuazlitrilece.jpg";
 import cikolatalitrilece from "@/assets/cikolatalitrilece.jpg";
+import spoonful from "@/assets/spoonful.jpg";
 
 // Cold drinks / beverages
 import orangeMango from "@/assets/orangemango.jpg";
@@ -333,6 +334,12 @@ export const desserts: MenuItem[] = [
     description: "Hafif sünger keki ve yoğun frambuaz sosuyla taptaze bir trileçe",
     price: 120,
     image: frambuazlıtrilece
+  },
+  {
+    name: "Spoonful",
+    description: "Yumuşacık, kremsi katmanlar ve ferahlatıcı dokunuşlarla hazırlanan özel tatlı",
+    price: 120,
+    image: spoonful
   },
   {
     name: "Çilekli Magnolia",
