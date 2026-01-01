@@ -83,7 +83,7 @@ export const coldDrinks: MenuItem[] = [
   },
   {
     name: "Karpuz Çilek Soda",
-    description: "Taze karpuz ve çilek aromalı ev yapımı özel sodamız",
+    description: "Karpuz ve çilek aromalı ferahlatıcı soda",
     price: 40,
     image: karpuzCilekSoda
   },
@@ -95,13 +95,13 @@ export const coldDrinks: MenuItem[] = [
   },
   {
     name: "Narlı Soda",
-    description: "Taze nar suyu ile hazırlanan özel sodamız",
+    description: "Nar aromalı ferahlatıcı soda",
     price: 40,
     image: narliSoda
   },
   {
     name: "Limonlu Soda",
-    description: "Taze limon ile hazırlanan klasik soda",
+    description: "Limon aromalı ferahlatıcı soda",
     price: 40,
     image: limonluSoda
   },
