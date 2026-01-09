@@ -1,13 +1,13 @@
 // import sansebastian from "@/assets/sansebastian.jpg";
 import redvelvet from "@/assets/redvelvet.jpg";
-import waffle from "@/assets/waffle.jpg";
+// import waffle from "@/assets/waffle.jpg";
 import darkvelvet from "@/assets/darkvelvet.jpg";
 import cileklimag from "@/assets/cileklimagnolia.jpg";
 import kivilimag from "@/assets/kivilimagnolia.jpg";
 import muzlumag from "@/assets/muzlumagnolia.jpg";
 import lotuslumag from "@/assets/lotuslumagnolia.jpg";
 import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
-import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
+// import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
 import firindasutlac from "@/assets/firindasutlac.jpg";
 // import sutlac from "@/assets/sutlac.jpg";
 import trilece from "@/assets/trilece.jpg";
@@ -376,19 +376,19 @@ export const desserts: MenuItem[] = [
     description: "Özel güveç kaplarında fırınlanan ve üzeri nar gibi kızartılan geleneksel sütlaç",
     price: 120,
     image: firindasutlac
-  },
-  {
-    name: "Beyaz Çikolatalı Waffle",
-    description: "Taze muz, kivi, çilek ve beyaz çikolata sosu ile hazırlanan sıcak waffle",
-    price: 220,
-    image: beyazcwaffle
-  },
-  {
-    name: "Çikolatalı Waffle",
-    description: "Taze muz, kivi, çilek ve özel çikolata sosu ile hazırlanan sıcak waffle",
-    price: 220,
-    image: waffle
   }
+  // {
+  //   name: "Beyaz Çikolatalı Waffle",
+  //   description: "Taze muz, kivi, çilek ve beyaz çikolata sosu ile hazırlanan sıcak waffle",
+  //   price: 220,
+  //   image: beyazcwaffle
+  // },
+  // {
+  //   name: "Çikolatalı Waffle",
+  //   description: "Taze muz, kivi, çilek ve özel çikolata sosu ile hazırlanan sıcak waffle",
+  //   price: 220,
+  //   image: waffle
+  // }
   // {
   //   name: "San Sebastian",
   //   description: "Bask usulü kremalı cheesecake, yanık üst katmanı ile ünlü İspanyol tatlısı",
