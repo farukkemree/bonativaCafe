@@ -353,24 +353,24 @@ export const desserts: MenuItem[] = [
     price: 120,
     image: muzlumag
   },
-  {
-    name: "Kivili Magnolia",
-    description: "Taze kivi dilimleri ve hafif kremalı sos ile hazırlanan özel magnolia",
-    price: 120,
-    image: kivilimag
-  },
+  // {
+  //   name: "Kivili Magnolia",
+  //   description: "Taze kivi dilimleri ve hafif kremalı sos ile hazırlanan özel magnolia",
+  //   price: 120,
+  //   image: kivilimag
+  // },
   {
     name: "Lotuslu Magnolia",
     description: "Orijinal Lotus bisküvileri ve karamelize sos ile hazırlanan özel magnolia",
     price: 120,
     image: lotuslumag
   },
-  {
-    name: "Frambuazlı Magnolia",
-    description: "Taze frambuazlar ve hafif kremalı sos ile hazırlanan mayhoş ve tatlı magnolia",
-    price: 120,
-    image: frambuazlımag
-  },
+  // {
+  //   name: "Frambuazlı Magnolia",
+  //   description: "Taze frambuazlar ve hafif kremalı sos ile hazırlanan mayhoş ve tatlı magnolia",
+  //   price: 120,
+  //   image: frambuazlımag
+  // },
   {
     name: "Fırında Sütlaç",
     description: "Özel güveç kaplarında fırınlanan ve üzeri nar gibi kızartılan geleneksel sütlaç",
