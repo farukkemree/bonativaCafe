@@ -3,10 +3,11 @@ import redvelvet from "@/assets/redvelvet.jpg";
 // import waffle from "@/assets/waffle.jpg";
 import darkvelvet from "@/assets/darkvelvet.jpg";
 import cileklimag from "@/assets/cileklimagnolia.jpg";
-import kivilimag from "@/assets/kivilimagnolia.jpg";
+// import kivilimag from "@/assets/kivilimagnolia.jpg";
 import muzlumag from "@/assets/muzlumagnolia.jpg";
 import lotuslumag from "@/assets/lotuslumagnolia.jpg";
-import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
+// import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
+import dubaicup from "@/assets/dubaicupmagnolia.jpg";
 // import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
 import firindasutlac from "@/assets/firindasutlac.jpg";
 // import sutlac from "@/assets/sutlac.jpg";
@@ -364,6 +365,12 @@ export const desserts: MenuItem[] = [
     description: "Orijinal Lotus bisküvileri ve karamelize sos ile hazırlanan özel magnolia",
     price: 120,
     image: lotuslumag
+  },
+  {
+    name: "Dubai Cup ",
+    description: "Meşhur fıstıklı ve çıtır kadayıflı Dubai dolgusunun özel kremamız ve çikolata ile buluşması.",
+    price: 120,
+    image: dubaicup
   },
   // {
   //   name: "Frambuazlı Magnolia",
