@@ -7,7 +7,7 @@ import cileklimag from "@/assets/cileklimagnolia.jpg";
 import muzlumag from "@/assets/muzlumagnolia.jpg";
 import lotuslumag from "@/assets/lotuslumagnolia.jpg";
 // import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
-import dubaicup from "@/assets/dubaicupmagnolia.jpg";
+// import dubaicup from "@/assets/dubaicupmagnolia.jpg";
 // import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
 import firindasutlac from "@/assets/firindasutlac.jpg";
 // import sutlac from "@/assets/sutlac.jpg";
@@ -42,6 +42,7 @@ import su from "@/assets/su.jpg";
 import cay from "@/assets/çay.jpg";
 import turkKahvesi from "@/assets/türkkahvesi.jpg";
 import dibek from "@/assets/dibek.jpg";
+import menengic from "@/assets/menengickahvesi.jpg";
 import filtre from "@/assets/filtre.jpg";
 import espresso from "@/assets/espresso.jpg";
 import americano from "@/assets/americano.jpg";
@@ -206,6 +207,12 @@ export const hotDrinks: MenuItem[] = [
     image: dibek
   },
   {
+    name: "Menengiç Kahvesi",
+    description: "Kavrulmuş menengiç meyvelerinden elde edilen, sütle hazırlanan kafeinsiz ve yumuşak içimli yöresel lezzet",
+    price: 60,
+    image: menengic
+  },
+  {
     name: "Espresso",
     description: "İtalyan usulü hazırlanan yoğun ve aromalı espresso",
     price: 60,
@@ -366,12 +373,12 @@ export const desserts: MenuItem[] = [
     price: 120,
     image: lotuslumag
   },
-  {
-    name: "Dubai Cup ",
-    description: "Meşhur fıstıklı ve çıtır kadayıflı Dubai dolgusunun özel kremamız ve çikolata ile buluşması.",
-    price: 120,
-    image: dubaicup
-  },
+  // {
+  //   name: "Dubai Cup ",
+  //   description: "Meşhur fıstıklı ve çıtır kadayıflı Dubai dolgusunun özel kremamız ve çikolata ile buluşması.",
+  //   price: 120,
+  //   image: dubaicup
+  // },
   // {
   //   name: "Frambuazlı Magnolia",
   //   description: "Taze frambuazlar ve hafif kremalı sos ile hazırlanan mayhoş ve tatlı magnolia",
