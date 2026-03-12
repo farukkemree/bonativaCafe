@@ -6,6 +6,7 @@ import cileklimag from "@/assets/cileklimagnolia.jpg";
 // import kivilimag from "@/assets/kivilimagnolia.jpg";
 import muzlumag from "@/assets/muzlumagnolia.jpg";
 import lotuslumag from "@/assets/lotuslumagnolia.jpg";
+import oreolumag from "@/assets/oreolumagnolia.jpeg";
 // import frambuazlımag from "@/assets/frambuazlimagnolia.jpg";
 // import dubaicup from "@/assets/dubaicupmagnolia.jpg";
 // import beyazcwaffle from "@/assets/beyazcikolataliwaffle.jpg";
@@ -372,6 +373,12 @@ export const desserts: MenuItem[] = [
     description: "Orijinal Lotus bisküvileri ve karamelize sos ile hazırlanan özel magnolia",
     price: 120,
     image: lotuslumag
+  },
+  {
+    name: "Oreolu Magnolia",
+    description: "Kıtır Oreo parçaları ve yoğun kremalı sos ile hazırlanan özel magnolia",
+    price: 120,
+    image: oreolumag
   },
   // {
   //   name: "Dubai Cup ",
