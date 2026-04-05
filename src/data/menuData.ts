@@ -75,7 +75,7 @@ export const coldDrinks: MenuItem[] = [
   {
     name: "Ayran",
     description: "Geleneksel lezzet, serinletici ayran",
-    price: 20,
+    price: 30,
     image: ayran
   },
   {
@@ -87,103 +87,103 @@ export const coldDrinks: MenuItem[] = [
   {
     name: "Karpuz Çilek Soda",
     description: "Karpuz ve çilek aromalı ferahlatıcı soda",
-    price: 40,
+    price: 50,
     image: karpuzCilekSoda
   },
   {
     name: "Elmalı Soda",
     description: "Yeşil elma aromalı ferahlatıcı soda",
-    price: 40,
+    price: 50,
     image: elmaliSoda
   },
   {
     name: "Narlı Soda",
     description: "Nar aromalı ferahlatıcı soda",
-    price: 40,
+    price: 50,
     image: narliSoda
   },
   {
     name: "Limonlu Soda",
     description: "Limon aromalı ferahlatıcı soda",
-    price: 40,
+    price: 50,
     image: limonluSoda
   },
   {
     name: "Şeftali Ice Tea",
     description: "Şeftali aromalı soğuk çay",
-    price: 60,
+    price: 70,
     image: seftaliIceTea
   },
   // {
   //   name: "Mango Ice Tea",
   //   description: "Mango aromalı soğuk çay",
-  //   price: 60,
+  //   price: 70,
   //   image: mangoIceTea
   // },
   {
     name: "Limonlu Ice Tea",
     description: "Limon aromalı soğuk çay",
-    price: 60,
+    price: 70,
     image: limonluIceTea
   },
   {
     name: "Kola",
     description: "Klasik gazlı içecek",
-    price: 60,
+    price: 70,
     image: kola
   },
   {
     name: "Kola Turka",
     description: "Klasik gazlı içecek",
-    price: 60,
+    price: 70,
     image: kolaturka
   },
   {
     name: "Fanta",
     description: "Portakal aromalı gazlı içecek",
-    price: 60,
+    price: 70,
     image: fanta  
   },
   {
   name: "Karışık Meyve Suyu",
   description: "Çeşitli taze meyvelerin doğal karışımı ile hazırlanan, vitamin dolu ve ferahlatıcı içecek.",
-  price: 60,
+  price: 70,
   image: karisikmeyvesuyu
   },
   {
   name: "Şeftali Meyve Suyu",
   description: "Taze ve olgun şeftalilerden hazırlanan, tatlı ve lezzetli, doğal meyve suyu.",
-  price: 60,
+  price: 70,
   image: seftalimeyvesuyu
   },
   {
   name: "Vişne Meyve Suyu",
   description: "Taze vişnelerin mayhoş lezzetini sunan, serinletici ve doğal meyve suyu.",
-  price: 60,
+  price: 70,
   image: visnemeyvesuyu
   },
   {
     name: "Limonata",
     description: "El yapımı, taze sıkılmış limon ve doğal şekerle hazırlanan klasik serinletici içecek",
-    price: 90,
+    price: 100,
     image: limonata
   },
   {
     name: "Orange Mango",
     description: "Taze sıkılmış portakal suyu ve tropikal mango püresi ile hazırlanan, doğal ve ferahlatıcı özel içeceğimiz",
-    price: 90,
+    price: 120,
     image: orangeMango
   },
   {
     name: "Hibiscus",
     description: "Özenle demlenen hibiskus çiçeği ile hazırlanan, antioksidan açısından zengin ve ferahlatıcı soğuk çayımız",
-    price: 90,
+    price: 120,
     image: hibiscus
   },
   {
     name: "Cool Lime",
     description: "Taze lime, nane ve hafif tatlandırıcı ile hazırlanan serinletici ve canlandırıcı içecek",
-    price: 90,
+    price: 120,
     image: coolLime
   }
 ];
@@ -192,96 +192,96 @@ export const hotDrinks: MenuItem[] = [
   {
     name: "Çay",
     description: "Özenle demlenen geleneksel Türk çayı",
-    price: 15,
+    price: 20,
     image: cay
   },
   {
     name: "Türk Kahvesi",
     description: "Geleneksel usulde pişirilen, köpüklü Türk kahvesi",
-    price: 60,
+    price: 75,
     image: turkKahvesi
   },
   {
     name: "Dibek Kahvesi",
     description: "Özel harmanlanmış, ağaç havanında dövülerek hazırlanan geleneksel dibek kahvesi",
-    price: 60,
+    price: 75,
     image: dibek
   },
   {
     name: "Menengiç Kahvesi",
     description: "Kavrulmuş menengiç meyvelerinden elde edilen, sütle hazırlanan kafeinsiz ve yumuşak içimli yöresel lezzet",
-    price: 60,
+    price: 75,
     image: menengic
   },
   {
     name: "Espresso",
     description: "İtalyan usulü hazırlanan yoğun ve aromalı espresso",
-    price: 60,
+    price: 75,
     image: espresso
   },
   {
     name: "Double Espresso",
     description: "Çift shot espresso, güçlü ve yoğun",
-    price: 70,
+    price: 120,
     image: espresso
   },
   {
     name: "Filtre Kahve",
     description: "Premium Arabica çekirdeklerden taze demlenen filtre kahve",
-    price: 70,
+    price: 100,
     image: filtre
   },
   {
     name: "Americano",
     description: "Espresso ve sıcak su ile hazırlanan yumuşak kahve",
-    price: 70,
+    price: 100,
     image: americano
   },
   {
     name: "Latte",
     description: "Espresso ve bol sütlü, kremalı latte",
-    price: 90,
+    price: 120,
     image: latte
   },
   {
     name: "Mocha",
     description: "Espresso, sıcak çikolata ve süt karışımı lezzetli içecek",
-    price: 90,
+    price: 140,
     image: mocha
   },
   {
     name: "White Mocha",
     description: "Espresso, beyaz çikolata ve süt ile hazırlanan özel mocha",
-    price: 90,
+    price: 140,
     image: whiteMocha
   },{
     name: "Macchiato",
     description: "Espresso üzerine süt köpüğü ile 'işaretlenmiş' klasik İtalyan kahvesi",
-    price: 90,
+    price: 140,
     image: macchiato
   },
   {
     name: "Caramel Macchiato",
     description: "Karamel şurubu, espresso ve süt köpüğü ile hazırlanan tatlı kahve",
-    price: 90,
+    price: 140,
     image: caramelMacchiato
   },
   {
     name: "Flat White",
     description: "Espresso ve kadifemsi mikro köpüklü süt ile hazırlanan özel kahve",
-    price: 90,
+    price: 140,
     image: flatWhite
   },
   {
     name: "Salep",
     description: "Yumuşacık içimi ve tarçın eşliğinde nostaljik bir salep keyfi",
-    price: 90,
+    price: 120,
     image: salep
   },
   {
     name: "Sıcak Çikolata",
     description: "Kaliteli çikolata ve sıcak süt ile hazırlanan kremalı içecek",
-    price: 90,
+    price: 120,
     image: sicakCikolata
   }
 ];
@@ -290,27 +290,27 @@ export const snacks: MenuItem[] = [
   {
     name: "Tost",
     description: "Kaşar peyniri ve sucukla hazırlanan sıcak tost",
-    price: 100,
-    image: tost
-  },
-  {
-    name: "Hindi Salamlı Soğuk Sandviç",
-    description: "Hindi salam, krem peynir ve taze domatesle hazırlanan klasik lezzet",
-    price: 100,
-    image: soguksandvic
-  },
-    {
-    name: "Hindi Fümeli Soğuk Sandviç",
-    description: "Dumanlı hindi füme, labne peyniri ve taze domatesle ferah bir seçenek",
     price: 110,
-    image: soguksandvic
-  },
-  {
-    name: "Dana Salamlı Soğuk Sandviç",
-    description: "Dana salam, taze kaşar peyniri ve domates dilimleriyle sevilen bir ikili",
-    price: 120,
-    image: soguksandvic
+    image: tost
   }
+  // {
+  //   name: "Hindi Salamlı Soğuk Sandviç",
+  //   description: "Hindi salam, krem peynir ve taze domatesle hazırlanan klasik lezzet",
+  //   price: 100,
+  //   image: soguksandvic
+  // },
+  //   {
+  //   name: "Hindi Fümeli Soğuk Sandviç",
+  //   description: "Dumanlı hindi füme, labne peyniri ve taze domatesle ferah bir seçenek",
+  //   price: 110,
+  //   image: soguksandvic
+  // },
+  // {
+  //   name: "Dana Salamlı Soğuk Sandviç",
+  //   description: "Dana salam, taze kaşar peyniri ve domates dilimleriyle sevilen bir ikili",
+  //   price: 120,
+  //   image: soguksandvic
+  // }
 ];
 
 export const desserts: MenuItem[] = [
