@@ -10,7 +10,7 @@ import trilece from "@/assets/trilece.jpg";
 import frambuazlıtrilece from "@/assets/frambuazlitrilece.jpg";
 import kazandibi from "@/assets/kazandibi.jpg";
 import spoonful from "@/assets/spoonful.jpg";
-import supangle from "@/assests/supangle.jpg"
+import supangle from "@/assets/supangle.jpg"
 
 // Cold drinks / beverages
 import orangeMango from "@/assets/orangemango.jpg";
