@@ -34,7 +34,7 @@ const Menu = () => {
               Soğuk İçecekler
             </TabsTrigger>
             <TabsTrigger value="snacks" className="text-sm md:text-base py-3 data-[state=active]:bg-primary-foreground data-[state=active]:text-primary text-primary-foreground">
-              Aperatifler
+              Bonativa Spesiyal 
             </TabsTrigger>
           </TabsList>
 

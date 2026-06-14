@@ -39,11 +39,11 @@ import whiteMocha from "@/assets/whitemocha.jpg";
 import salep from "@/assets/salep.jpg";
 import sicakCikolata from "@/assets/sıcakçikolata.jpg";
 
-import snackcup from "@/assets/snackcup.jpg";
-import limonata from "@/assets/limonata.jpg";
-import dondurma from "@/assets/dondurma.jpg";
-import dondurmalifrappe from "@/assets/dondurmalifrappe.jpg";
-
+// import snackcup from "@/assets/snackcup.jpg";
+// import limonata from "@/assets/limonata.jpg";
+// import dondurma from "@/assets/dondurma.jpg";
+// import dondurmalifrappe from "@/assets/dondurmalifrappe.jpg";
+import logo from "@/assets/logo.jpg";
 
 
 export interface MenuItem {
@@ -208,37 +208,37 @@ export const snacks: MenuItem[] = [
     name: "Snack Cup",
     description: "Waffle ve Bonativa spesiyal içeceğiyle hazırlanan özel atıştırmalık menü",
     price: 250,
-    image: snackcup
+    image: logo
   },
   {
     name: "Kova Waffle",
     description: "Bol malzemeli, paylaşmalık kova waffle lezzeti",
     price: 200,
-    image: snackcup
+    image: logo
   },
   {
     name: "Bonativa Limonata",
     description: "Ferahlatıcı aromasıyla hazırlanan özel Bonativa limonatası",
     price: 70,
-    image: limonata
+    image: logo
   },
   {
     name: "Bonativa Sunset",
     description: "Canlı aromalarla hazırlanan ferahlatıcı Bonativa özel içeceği",
     price: 70,
-    image: limonata
+    image: logo
   },
   {
     name: "Dondurma",
     description: "Seçtiğiniz aromayla servis edilen 1 top dondurma",
     price: 25,
-    image: dondurma
+    image: logo
   },
   {
     name: "Dondurmalı Frappe",
     description: "Soğuk frappe lezzetinin dondurma ile birleştiği özel içecek",
     price: 120,
-    image: dondurmalifrappe
+    image: logo
   }
 ];
 
@@ -320,5 +320,11 @@ export const desserts: MenuItem[] = [
     description: "Hafif yanık karamelli tabanı ve ipeksi kıvamıyla hazırlanan geleneksel kazandibi",
     price: 100,
     image: kazandibi
+  },
+    {
+    name: "Kaşık Tatlısı ",
+    description: "Kaşıkla servis edilen, yumuşacık kreması ve hafif dokusuyla hazırlanan özel sütlü tatlı",
+    price: 100,
+    image: logo
   }
 ];
