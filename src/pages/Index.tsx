@@ -83,13 +83,14 @@ const Index = () => {
               </div>
                 <h3 className="font-semibold text-lg mb-2 text-foreground">Adres</h3>
               <a
-                href="https://maps.google.com/?q=Erikli+İnançlı+Sk.+No:7+Bursa+Türkiye"
+                href="https://www.google.com/maps/search/?api=1&query=Davutdede+mahallesi+kurtuluş+caddesi+kılıçaslan+apartmanı+no:174A+yıldırım+BURSA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-secondary transition-colors"
               >
-                Erikli, İnançlı Sk. No:7 <br />
-                Bursa, Türkiye
+                Davutdede Mahallesi, Kurtuluş Caddesi <br />
+                Kılıçaslan Apartmanı No:174A <br />
+                Yıldırım / BURSA
               </a>
             </div>
 
